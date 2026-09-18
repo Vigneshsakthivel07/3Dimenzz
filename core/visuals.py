@@ -18,4 +18,4 @@ def visualize_comparison(fmb_poly, gps_poly):
     ax.set_ylabel("Distance (m)")
     ax.grid(True, linestyle=':', alpha=0.7)
     ax.legend()
-    plt.show()
+    return fig
